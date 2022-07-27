@@ -18,8 +18,10 @@ Resource
 
 // string
 
-$x = "Hello world!";
-$y = 'Hello world!';
+$age = 10;
+
+$x = "Omar $age years old";
+$y = 'Omar $age years old';
 
 echo $x;
 echo "<br>";
@@ -58,7 +60,7 @@ echo '<br/>---------------------------<br/>';
 $x = "Hello world!";
 $x = null;
 var_dump($x);
-//var_dump($gouda);
+var_dump($gouda);
 echo '<br/>---------------------------<br/>';
 
 
@@ -72,3 +74,27 @@ In PHP, Resource  is a special data type that refers to any external resource. A
 */
 $fp=fopen("index.php","w");
 var_dump($fp);
+
+
+
+// PHP is a Loosely Typed Language or Dynamically Typed Language
+
+// what is the difference between statically typed and dynamically typed languages?
+/*
+ 
+ A programming language is statically typed if the type of a variable is known at compile time. A language is dynamically typed if the type of a variable is checked during run-time.  
+ 
+ Some examples of statically-typed languages are Java, C, C++, C#, Swift, Scala, Kotlin, Fortran, Pascal, Rust, Go, COBOL, etc.
+
+ Most modern programming languages are dynamically typed. Some examples of dynamically-typed languages are Python, Javascript, Ruby, Perl, PHP, R, Dart, Lua, Objective-C, etc. 
+ 
+ */
+
+// What is the difference between compiler or interpreter?
+/*
+ 
+ C, C++, C#, Java are compiler-based programming languages 
+
+ PHP, PERL, Ruby are interpreter-based programming languages
+ 
+ */

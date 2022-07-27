@@ -3,9 +3,17 @@
 // Variables as containers for storing data.
 
 
-$txt = "Hello world!";
+$datbase_password = "test";
 $x = 5;
 $y = 10.5;
+
+echo $datbase_password;
+
+echo '<br/>';
+
+$datbase_password = 'Gouda';
+
+echo $datbase_password;
 
 
 /*
@@ -18,31 +26,20 @@ Variable names are case-sensitive ($age and $AGE are two different variables)
    
 */
 
+echo '<br/>';
 
+echo '-------------------------------------------';
 
-// PHP is a Loosely Typed Language or Dynamically Typed Language
+$echo;
 
-// what is the difference between statically typed and dynamically typed languages?
-/*
- 
- A programming language is statically typed if the type of a variable is known at compile time. A language is dynamically typed if the type of a variable is checked during run-time.  
- 
- Some examples of statically-typed languages are Java, C, C++, C#, Swift, Scala, Kotlin, Fortran, Pascal, Rust, Go, COBOL, etc.
+$echo = 'ahmed';
+echo '<br/>';
 
- Most modern programming languages are dynamically typed. Some examples of dynamically-typed languages are Python, Javascript, Ruby, Perl, PHP, R, Dart, Lua, Objective-C, etc. 
- 
- */
+echo $echo;
 
+$echo = 122;
+echo '<br/>';
 
-// What is the difference between compiler or interpreter?
-/*
- 
- C, C++, C#, Java are compiler-based programming languages 
-
- PHP, PERL, Ruby are interpreter-based programming languages
- 
- */
-
-
+echo $echo;
 
 ?>

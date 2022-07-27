@@ -2,8 +2,11 @@
 
 // Create a constant with a case-sensitive name:
 
-define("GREETING", "Welcome to W3Schools.com!");
-echo GREETING;
+define("datbase_host", "localhost");
+define("datbase_username", "root");
+define("datbase_password", "Ahmed");
+
+echo datbase_password;
 
 // Create a constant with a case-sensitive name:
 define("GREETING", "Welcome to W3Schools.com!", true);
@@ -12,11 +15,10 @@ echo greeting;
 
 //In PHP7, you can create an Array constant using the define() function.
 
-define("cars", [
-  "Alfa Romeo",
-  "BMW",
-  "Toyota"
+define("gender", [
+  "male",
+  "female"
 ]);
-echo cars[0];
+echo gender[0];
 
 ?>

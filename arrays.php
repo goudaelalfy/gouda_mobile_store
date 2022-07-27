@@ -10,18 +10,26 @@ Multidimensional arrays - Arrays containing one or more arrays
 
 
 // Indexed
-$cars = array("Volvo", "BMW", "Toyota");
-echo "I like " . $cars[0] . ", " . $cars[1] . " and " . $cars[2] . ".";
 
+$gender_arr_indexed = array('male', 'female');
+$gender_arr_indexed = ['male', 'female'];
+
+echo "I like " . $gender_arr_indexed[0] . ", " . $gender_arr_indexed[1];
+
+echo '<br/>';
 
 // Associative
-$age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
-echo "Peter is " . $age['Peter'] . " years old.";
+$gender_arr_associative = array(
+    'male' => 'ذكر', 
+    'female' => 'انثى'
+    );
+echo $gender_arr_associative[0] .' - '.$gender_arr_associative[1];
 
+echo '<br/>';
 
 // Multidimensional
 $cars = array (
-  array("Volvo",22,18),
+  'vol'=>array("Volvo",22,18),
   array("BMW",15,13),
   array("Saab",5,2),
   array("Land Rover",17,15)
