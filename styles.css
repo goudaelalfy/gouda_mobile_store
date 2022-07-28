@@ -1,0 +1,22 @@
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: blue;
+}
+p {
+  color: red;
+}
+h1 {
+	font-size:15px; 
+	color:blue;
+}
+.h1_yellow {
+	font-size:12px; color:yellow;
+}
+
+/*
+table, th, td {
+  border: 1px solid black;
+}
+*/
