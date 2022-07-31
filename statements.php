@@ -92,3 +92,18 @@ for ($x = 0; $x < 10; $x++) {
   }
   echo "The number is: $x <br>";
 }
+
+
+
+echo '<br/>---------------------------<br/>';
+
+$x=4;
+$y= '4';
+
+if($x==$y) {
+   echo 'good'; 
+}
+
+if($x===$y) {
+   echo 'very good'; 
+}
