@@ -1,0 +1,84 @@
+.register-div{
+    width: 70%;
+    margin: auto;
+   background-color: rgba(169, 169, 169, 0.288);
+}
+.register-img{
+    display: block;
+    margin: auto;
+    width:65%;
+    height: 50vh;
+    border-radius: 15px;
+}
+a{
+    text-decoration: none ;
+    font-size: 25px;
+    color : rgb(21, 21, 199);
+
+}
+.register-button{
+background-color: white;
+width: 200px;
+height: 60px;
+border: 10p;
+border-radius: 10px;
+font-size: large;
+display: block;
+margin: auto;
+}
+[type="text"]{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border: 3px solid rgb(7, 7, 7);
+    border-radius: 10px;
+}
+[type="password"]{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border: 3px solid rgb(7, 7, 7);
+    border-radius: 10px;
+}
+[type="email"]{
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+    border: 3px solid rgb(7, 7, 7);
+    border-radius: 10px;
+}
+[type="tel"]{
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    border: 3px solid rgb(7, 7, 7);
+    border-radius: 10px;
+}
+
+.register-label {
+  
+    font-size: larger;
+    color: black;
+    border-radius: 20px;
+}
+.gender-label{
+background-color: rgb(74, 74, 228);
+font-size: 25px;
+
+}
+ 
+.label-div{
+ width: 80%;
+    margin: auto;
+}
+
+.register-dt{
+background-color:rgb(141, 115, 233);
+width:fit-content;
+height: 50px;
+font-size: 40px;
+color: black;
+display: block;
+margin: auto;
+border-radius: 10px;
+}

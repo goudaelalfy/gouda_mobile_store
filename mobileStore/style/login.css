@@ -1,0 +1,49 @@
+.container{
+	width: 90%;
+	height: 100%;
+	margin: 100px auto;
+	font-family: arial, sans-serif;	
+}
+
+h2{
+	text-align: center;
+	margin-bottom: 200px;
+	font-size: 30px;
+	
+}
+table{
+	width: 90%;
+	border-collapse: collapse;
+
+}
+th,td{
+    padding: 20px;
+    /* border: 1px solid #dddddd; */
+    font-size: 20px;
+	text-align: center;
+}
+input{
+	width: 80%;
+	height: 40px;
+	border: 2px solid black;
+	border-radius: 5px;
+	font-size: 20px;
+}
+input[type="submit"]{
+	width: 20%;
+	border-radius: 20px;
+	cursor: pointer;
+	text-align: center;
+	margin-right: 400px;
+	font-size: 20px;
+}
+a{
+	padding: 16px;
+	width: 20%;
+	height: 20px;
+	text-decoration: none;
+	text-align: center;
+	margin-right: 400px;
+	border: 2px solid black;
+	border-radius: 20px;
+}
