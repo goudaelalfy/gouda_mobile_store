@@ -1,6 +1,8 @@
 <?php
 
-echo strlen("Hello world!"); // outputs 12
+$x = "Hello world!";
+
+echo strlen($x); // outputs 12
 
 echo str_word_count("Hello world!"); // outputs 2
 
