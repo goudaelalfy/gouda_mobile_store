@@ -10,7 +10,7 @@
     <img class="register-img" src="images/Internet-10.jpg" alt=""مستخدم"  width="300px" height="300" />
 <br>
 <br>  
-<form>
+<form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
 <dl></dl>
 <dt class="register-dt"> sign up </dt>
    
@@ -18,9 +18,9 @@
         <br>
         <div class="label-div">
 <label class="register-label"> First Name:</label>
-<input type="text">
+<input type="text" name="first_name">
 <label class="register-label">  Last Name:</label>
-<input type="text"><br><br>
+<input type="text"  name="last_name"><br><br>
 <label class="register-label"> Password:</label>
 <input type="password">
 <label class="register-label">Confirm Password:</label>
@@ -33,17 +33,29 @@
 <input type="radio" name="g" > <label >male </label>
 <input type="radio" name="g" > <label >female</label> <br><br>
         </div>
- <a href="#"> <button class="register-button">  send  </a> </button>    
+        
+        
+        <button type="submit" class="register-button">  send  </button>    
 </form>
+
+
 
 </div>
 
 </body>
 
 
-
-
-
-
-
 </html>
+
+
+<?php
+
+echo 'test';
+echo '<br/>------------------<br/>';
+
+echo $_POST['first_name'];
+echo '<br/>------------------<br/>';
+echo $_POST['last_name'];
+echo '<br/>------------------<br/>';
+
+?>

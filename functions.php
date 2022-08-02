@@ -2,11 +2,11 @@
 
 //declare(strict_types=1);
 
-function sumTwoNumbers($num1 = 1, $num2=1) {
+function sumTwoNumbers($num1, $num2) {
     
     $sum = $num1 + $num2;
     
-    echo $sum;
+    //echo $sum;
     
     return $sum;
 }
@@ -22,8 +22,11 @@ echo '<br/>';
 echo '<br/>';
 
 function addNumbers(int $a, int $b) {
-  return $a + $b;
+  //return $a + $b;
+    
+    return $a;
 }
+
 echo addNumbers(5, "5 days");
 
 
@@ -32,10 +35,15 @@ echo '<br/>';
 echo 'pass-by-reference';
 echo '<br/>';
 
+
 function addFive(&$value) {
-  $value += 5;
+  $value += 5; // $value = $value + 5;
+  return $value;
 }
 
 $num = 2;
-addFive($num);
+$num_after_adding = addFive($num);
+
 echo $num;
+echo '<br/>';
+echo $num_after_adding;

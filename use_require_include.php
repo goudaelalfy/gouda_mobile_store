@@ -8,6 +8,8 @@ include 'include.php';
 
 include_once 'include.php';
 
+include 'include.php';
+
 echo '<br/>-----------------------<br/>';
 echo '<br/>-----------------------<br/>';
 echo '<br/>-----------------------<br/>';
