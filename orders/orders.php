@@ -31,26 +31,26 @@
             <th>المجموع </th>
         </tr>
         <tr>
-            <th>  <a href="orders_details.html">5585</a> </th>
+            <th>  <a href="orders_details.php">5585</a> </th>
             <th>   </th>
             <th>   </th>
             <th>   </th>
            
         </tr>
         <tr>
-            <th><a  href="orders_details.html">5962</a></th>
+            <th><a  href="orders_details.php">5962</a></th>
             <th></th>
             <th></th>
             <th></th>
         </tr>
         <tr>
-            <th><a href="orders_details.html">4785</a></th>
+            <th><a href="orders_details.php">4785</a></th>
             <th></th>
             <th></th>
             <th></th>
         </tr>
         <tr>
-            <th><a href="orders_details.html">6540</a></th>
+            <th><a href="orders_details.php">6540</a></th>
             <th></th>
             <th></th>
             <th></th>
