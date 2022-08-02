@@ -1,3 +1,5 @@
+<?php
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,15 +8,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>orders_details</title>
     <link rel="stylesheet" href="style _order.css">
+    <link rel="stylesheet" href="hover.css">
     
 </head>
 <body>
     <header>
-        <h2>mobile_store</h2>
-    
+        <h2  >mobile_store</h2>
+     
     </header>
     <div class="order_details">
-        <h1> ORDERS DETAILS </h1>
+        <h1 class="hvr-curl-top-left"> ORDERS DETAILS </h1>
         <form action="get">
         <label for="name">اسم العميل </label>
         <input type="name">
@@ -84,3 +87,4 @@
     
 </body>
 </html>
+?>
