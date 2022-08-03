@@ -1,10 +1,14 @@
 .register-div{
-    width: 80%;
+    width: 70%;
     margin: auto;
+   background-color: rgba(169, 169, 169, 0.288);
 }
 .register-img{
     display: block;
     margin: auto;
+    width:65%;
+    height: 50vh;
+    border-radius: 15px;
 }
 a{
     text-decoration: none ;
@@ -52,9 +56,10 @@ margin: auto;
 }
 
 .register-label {
-    background-color:rgb(156, 243, 138);
+  
     font-size: larger;
     color: black;
+    border-radius: 20px;
 }
 .gender-label{
 background-color: rgb(74, 74, 228);
@@ -75,5 +80,5 @@ font-size: 40px;
 color: black;
 display: block;
 margin: auto;
+border-radius: 10px;
 }
-

@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+h2{
+	text-align: center;
+	margin: 20px;
+}
+table {
+	
+	 font-family: arial, sans-serif;
+	 border-collapse: collapse;
+	 width: 90%;
+	 margin-left: 50px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+.order{
+	width: 300px;
+	height: 100px;
+	margin-left: 300px;
+	margin-top: 50px;
+}
+.table{
+	  width: 80%;
+	 font-family: arial, sans-serif;
+}
+.table th , .table td{
+	text-align: center;
+	border: none;
+	font-size: 16px;
+}
