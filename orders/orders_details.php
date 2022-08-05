@@ -82,7 +82,7 @@
 </table> 
     </section>
     <aside>
-        <img class="img1" src="img/sumsung.jpg" width="300" height="300" alt="order_img">
+        <img class="img1" src="../img/sumsung.jpg" width="300" height="300" alt="order_img">
     </aside>
     
 </body>
