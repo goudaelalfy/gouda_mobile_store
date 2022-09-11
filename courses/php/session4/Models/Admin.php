@@ -1,7 +1,6 @@
 <?php
 
 namespace Models;
-
 require_once '../DB/Connection.php';
 require_once 'Base.php';
 
@@ -10,13 +9,12 @@ class Admin extends Base {
     function __construct($id) {
                 
         $this->table = 'admins';
-        parent::__construct($id);
-        
+        parent::__construct($id); 
     }
     
     function getName() {
         //return $this->row['name'];
-        return $this->row->name;
+        return $this -> row -> name;
     }
     
     function getRowsCount() {
