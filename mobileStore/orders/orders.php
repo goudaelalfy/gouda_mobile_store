@@ -11,19 +11,21 @@
     <link rel="stylesheet" href="hover.css">
 </head>
 <body>
+    <div class="container">
+
+
    
     <header>
         <h2>mobile_store</h2>
         <button  class="openmenu_btn">Show</button>
     </header>
+
     <div class="order_details">
         <h1  class="hvr-curl-top-left" > ORDERS </h1>
-      
-       
-    <br>
-    </div>
+        <br>
+        </div>
     <section>
-               <table>
+        <table>
         <tr class="frow">
             <th>رقم الطلب   </th>
             <th>التاريخ   </th>
@@ -58,7 +60,7 @@
 
     </section>
 <aside>
-    <img class="img1" src="../img/phone.jpg" width="300" height="300" alt="order_img">
+    <img class="img1" src="../images/phone.jpg" width="300" height="300" alt="order_img">
 </aside>
 <nav class="menu">
         <a class="menu-anchor" href="index.html">home</a>
@@ -67,8 +69,10 @@
         <a class="menu-anchor" href="orders_details">order_details</a>
         <a class="menu-anchor" href="#">photo</a>
         <a class="menu-anchor" href="">location</a>
-    <img class="img2" src="../img/phone.jpg" width="300" height="300" alt="order_img">
+    <img class="img2" src="../images/Internet-10.jpg" width="300" height="300" alt="order_img">
     </nav>
+
+    </div>
   <script src="jquery-3.6.0.min.js" ></script>
   <script>
      $("button").click(function(){

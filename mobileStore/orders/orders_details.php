@@ -12,9 +12,9 @@
     
 </head>
 <body>
+    <div class="container">
     <header>
         <h2  >mobile_store</h2>
-     
     </header>
     <div class="order_details">
         <h1 class="hvr-curl-top-left"> ORDERS DETAILS </h1>
@@ -82,9 +82,19 @@
 </table> 
     </section>
     <aside>
-        <img class="img1" src="../img/sumsung.jpg" width="300" height="300" alt="order_img">
+        <img class="img1" src="../images/phone.jpg" width="300" height="300" alt="order_img">
     </aside>
-    
+
+    </div>
+    <script src="../orders/jquery-3.6.0.min.js" ></script>
+<script>
+    setInterval(myTimer,1000);
+    function myTimer (){
+        const date = new Date();
+        document.getElementById ("theTime").innerHTML= date.toLocaleString();
+    }
+</script>
+
 </body>
 </html>
 ?>
