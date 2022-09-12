@@ -28,12 +28,13 @@ use DB\Connection;
         $row = $result->fetchObject();
         
         $this->row = $row;
-        
     }
     
     function getRow() {
         return $this->row;
     }
+    
+    
     
     //abstract function getRowsCount();
 
